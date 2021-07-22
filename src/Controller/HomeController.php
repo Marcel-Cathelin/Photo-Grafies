@@ -48,7 +48,7 @@ class HomeController extends AbstractController
             'email' => $email,
             // 'errors' => $this->errors,
             // 'success' => $this->success,
-            'postalcode' => $postalcode
+            // 'postalcode' => $postalcode
         ]);
     }
 }
