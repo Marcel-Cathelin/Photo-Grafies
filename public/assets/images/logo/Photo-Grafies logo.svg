@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="1400px"
+   height="1400px"
+   viewBox="0 0 1400 1400"
+   enable-background="new 0 0 1400 1400"
+   xml:space="preserve"
+   sodipodi:docname="Photo-Grafies logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"><metadata
+   id="metadata81"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs79" /><sodipodi:namedview
+   inkscape:document-rotation="0"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1001"
+   id="namedview77"
+   showgrid="false"
+   inkscape:zoom="0.59285714"
+   inkscape:cx="576.99321"
+   inkscape:cy="629.15663"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<font
+   horiz-adv-x="1000"
+   id="font20">
+<!-- Russo is a trademark of Jovanny Lemonad. -->
+<!-- Copyright: Copyright 2018 Adobe System Incorporated. All rights reserved. -->
+<font-face
+   font-family="RussoOne-Regular"
+   units-per-em="1000"
+   underline-position="-75"
+   underline-thickness="50"
+   id="font-face2" />
+<missing-glyph
+   horiz-adv-x="300"
+   id="missing-glyph4" />
+<glyph
+   unicode="A"
+   horiz-adv-x="710"
+   d="M185,0l-195,0l265,700l200,0l265,-700l-195,0l-45,125l-250,0M275,255l160,0l-80,235z"
+   id="glyph6" />
+<glyph
+   unicode="G"
+   horiz-adv-x="700"
+   d="M660,15C504,-2 361,-10 230,-10C165,-10 117,5 86,36C55,67 40,115 40,180l0,320C40,570 56,621 88,653C119,684 170,700 240,700l360,0l0,-140l-320,0C240,560 220,540 220,500l0,-320C220,165 225,153 234,144C243,135 255,130 270,130C347,130 417,132 480,135l0,145l-130,0l0,120l310,0z"
+   id="glyph8" />
+<glyph
+   unicode="H"
+   horiz-adv-x="730"
+   d="M670,0l-180,0l0,285l-250,0l0,-285l-180,0l0,700l180,0l0,-275l250,0l0,275l180,0z"
+   id="glyph10" />
+<glyph
+   unicode="O"
+   horiz-adv-x="730"
+   d="M510,510C510,550 490,570 450,570l-170,0C240,570 220,550 220,510l0,-320C220,150 240,130 280,130l170,0C490,130 510,150 510,190M690,190C690,120 674,69 643,38C611,6 560,-10 490,-10l-250,0C170,-10 119,6 88,38C56,69 40,120 40,190l0,320C40,580 56,631 88,663C119,694 170,710 240,710l250,0C560,710 611,694 643,663C674,631 690,580 690,510z"
+   id="glyph12" />
+<glyph
+   unicode="P"
+   horiz-adv-x="710"
+   d="M60,700l420,0C550,700 601,684 633,653C664,621 680,570 680,500l0,-100C680,330 664,279 633,248C601,216 550,200 480,200l-240,0l0,-200l-180,0M500,500C500,540 480,560 440,560l-200,0l0,-220l200,0C480,340 500,360 500,400z"
+   id="glyph14" />
+<glyph
+   unicode="R"
+   horiz-adv-x="720"
+   d="M60,700l420,0C550,700 601,684 633,653C664,621 680,570 680,500l0,-90C680,355 671,312 653,281C634,250 605,230 565,220l125,-220l-195,0l-115,210l-140,0l0,-210l-180,0M500,500C500,540 480,560 440,560l-200,0l0,-210l200,0C480,350 500,370 500,410z"
+   id="glyph16" />
+<glyph
+   unicode="T"
+   horiz-adv-x="620"
+   d="M400,0l-180,0l0,560l-210,0l0,140l600,0l0,-140l-210,0z"
+   id="glyph18" />
+</font>
+
+	<font
+   horiz-adv-x="1000"
+   id="font46">
+<!-- Copyright 2011 The Montserrat Project Authors \(https://github.com/JulietaUla/Montserrat\) -->
+<!-- Copyright: Copyright 2018 Adobe System Incorporated. All rights reserved. -->
+<font-face
+   font-family="Montserrat-Medium"
+   units-per-em="1000"
+   underline-position="-100"
+   underline-thickness="50"
+   id="font-face22" />
+<missing-glyph
+   horiz-adv-x="587"
+   d="M40,0l507,0l0,700l-507,0M120,70l0,560l347,0l0,-560z"
+   id="missing-glyph24" />
+<glyph
+   unicode="E"
+   horiz-adv-x="670"
+   d="M205,87l0,226l351,0l0,85l-351,0l0,215l394,0l0,87l-494,0l0,-700l508,0l0,87z"
+   id="glyph26" />
+<glyph
+   unicode="I"
+   horiz-adv-x="310"
+   d="M105,0l100,0l0,700l-100,0z"
+   id="glyph28" />
+<glyph
+   unicode="L"
+   horiz-adv-x="594"
+   d="M105,0l479,0l0,87l-379,0l0,613l-100,0z"
+   id="glyph30" />
+<glyph
+   unicode="M"
+   horiz-adv-x="955"
+   d="M850,0l-1,700l-82,0l-288,-492l-292,492l-82,0l0,-700l96,0l0,507l253,-422l46,0l253,425l1,-510z"
+   id="glyph32" />
+<glyph
+   unicode="O"
+   horiz-adv-x="840"
+   d="M421,-8C634,-8 792,144 792,350C792,556 634,708 421,708C206,708 48,555 48,350C48,145 206,-8 421,-8M421,81C264,81 148,195 148,350C148,505 264,619 421,619C576,619 692,505 692,350C692,195 576,81 421,81z"
+   id="glyph34" />
+<glyph
+   unicode="P"
+   horiz-adv-x="722"
+   d="M378,700l-273,0l0,-700l100,0l0,212l173,0C560,212 670,304 670,456C670,608 560,700 378,700M375,299l-170,0l0,314l170,0C503,613 570,556 570,456C570,356 503,299 375,299z"
+   id="glyph36" />
+<glyph
+   unicode="R"
+   horiz-adv-x="727"
+   d="M682,0l-166,235C614,270 670,348 670,456C670,608 560,700 378,700l-273,0l0,-700l100,0l0,213l173,0C393,213 408,214 422,215l151,-215M375,298l-170,0l0,315l170,0C503,613 570,556 570,456C570,356 503,298 375,298z"
+   id="glyph38" />
+<glyph
+   unicode="S"
+   horiz-adv-x="621"
+   d="M309,-8C494,-8 580,84 580,191C580,448 156,341 156,512C156,573 207,623 326,623C388,623 457,605 518,566l33,80C493,686 408,708 326,708C142,708 58,616 58,508C58,248 482,356 482,185C482,124 430,77 309,77C219,77 130,111 78,158l-37,-78C97,28 202,-8 309,-8z"
+   id="glyph40" />
+<glyph
+   unicode="U"
+   horiz-adv-x="791"
+   d="M395,-8C580,-8 691,99 691,302l0,398l-97,0l0,-394C594,151 522,81 396,81C270,81 199,151 199,306l0,394l-100,0l0,-398C99,99 211,-8 395,-8z"
+   id="glyph42" />
+<glyph
+   unicode=" "
+   horiz-adv-x="269"
+   id="glyph44" />
+</font>
+
+	
+<g
+   id="g947"><g
+     id="g64"
+     transform="matrix(1.9578967,0,0,2.0511366,-670.52864,-579.54846)">
+	<g
+   id="g52">
+		<path
+   id="path48"
+   d="m 665.959,744.803 91.239,12.432 c 66.81,9.104 128.921,-38.111 138.025,-104.921 l 20.244,-148.572 c 3.167,-23.242 -0.488,-45.912 -9.406,-65.983 z"
+   fill="#ef7e2f" />
+		<path
+   id="path50"
+   d="m 608.625,736.991 35.442,4.829 251.999,-322.258 c -18.85,-28.394 -49.303,-48.91 -85.521,-53.845 L 661.972,345.473 c -66.81,-9.103 -128.921,38.111 -138.025,104.921 l -20.244,148.573 c -9.102,66.81 38.112,128.921 104.922,138.024 z"
+   fill="#9c2a8c" />
+	</g>
+	<path
+   id="path54"
+   d="m 665.959,744.803 91.239,12.432 c 66.81,9.104 128.921,-38.111 138.025,-104.921 l 20.244,-148.572 c 3.167,-23.24 -0.498,-45.902 -9.416,-65.971 z"
+   fill="#e7197f" />
+	<path
+   id="path56"
+   d="m 647.323,483.917 c -43.494,0 -78.88,35.385 -78.88,78.88 0,43.494 35.386,78.879 78.88,78.879 43.494,0 78.879,-35.385 78.879,-78.879 -10e-4,-43.495 -35.385,-78.88 -78.879,-78.88 z m -10e-4,138.065 c -32.688,0 -59.186,-26.498 -59.186,-59.186 0,-32.687 26.498,-59.186 59.186,-59.186 32.687,0 59.186,26.498 59.186,59.186 0,32.688 -26.498,59.186 -59.186,59.186 z"
+   fill="#ffffff" />
+	<path
+   id="path58"
+   d="m 774.472,439.928 h -45.218 l -15.887,-27.836 c -4.241,-7.43 -12.139,-12.016 -20.694,-12.016 h -90.701 c -8.555,0 -16.453,4.586 -20.693,12.016 l -15.887,27.836 h -45.218 c -20.219,0 -36.762,16.543 -36.762,36.762 v 172.211 c 0,20.219 16.543,36.762 36.762,36.762 h 254.3 c 20.219,0 36.762,-16.543 36.762,-36.762 v -172.21 c -0.002,-20.22 -16.545,-36.763 -36.764,-36.763 z M 647.323,661.065 c -54.186,0 -98.27,-44.083 -98.27,-98.269 0,-54.186 44.084,-98.27 98.27,-98.27 54.186,0 98.269,44.084 98.269,98.27 0,54.186 -44.083,98.269 -98.269,98.269 z M 788.381,482.947 c 0,4.28 -3.502,7.781 -7.782,7.781 h -27.463 c -4.28,0 -7.781,-3.502 -7.781,-7.781 v -0.944 c 0,-4.28 3.502,-7.782 7.781,-7.782 H 780.6 c 4.28,0 7.782,3.502 7.782,7.782 v 0.944 z"
+   fill="#ffffff" />
+	<circle
+   id="circle60"
+   r="15.839"
+   cy="542.90002"
+   cx="673.31097"
+   fill="#ffffff" />
+	<circle
+   id="circle62"
+   r="10.844"
+   cy="585.73901"
+   cx="621.24902"
+   fill="#ffffff" />
+</g><g
+     transform="rotate(17.232317,-50.415664,909.06642)"
+     id="g68">
+	<text
+   y="1033.8167"
+   x="-251.02176"
+   style="font-size:151.908px;font-family:RussoOne-Regular;stroke-width:1.21557"
+   id="text66"
+   font-size="124.968px"
+   font-family="RussoOne-Regular"
+   transform="matrix(0.90109192,-0.27338435,0.39615268,0.98957502,0,0)"><tspan
+     id="tspan83"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:233.39px;font-family:Mistral;-inkscape-font-specification:'Mistral, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.21557">PHOTO-GRAFIES</tspan></text>
+</g></g>
+<g
+   id="g74">
+	<g
+   id="g72">
+		<text
+   transform="translate(434.2354,1036.8965)"
+   fill="#fabe15"
+   font-family="Montserrat-Medium"
+   font-size="71.3088px"
+   id="text70" />
+	</g>
+</g>
+</svg>

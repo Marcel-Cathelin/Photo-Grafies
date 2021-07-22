@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+.h-head-text {
+  width: 90%;
+  margin: auto;
+}
+.h-head-text h2 {
+  text-align: center;
+}
+
+.h-head-img {
+  text-align: center;
+}
+.h-head-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 2rem 0;
+}
+.h-head-img #see-menu {
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+
+.post-head-text {
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
+}
+.post-head-text p:nth-child(1) {
+  padding-top: 2rem;
+}
+.post-head-text p {
+  padding: 0.5rem 0rem;
+}
+.post-head-text p span {
+  color: var(--dark-green);
+  font-size: large;
+}
+
+.tracking {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.tracking form p {
+  border: none;
+}
+.tracking form input {
+  padding: 0.5rem 1.8rem;
+  border-radius: 20px;
+}
+.tracking .fa-map-marker-alt {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.how-it-works {
+  background-image: url("/assets/images/background-images/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.how-it-works .head-hw h1 {
+  font-family: "Satisfy", cursive;
+  padding-bottom: 3rem;
+}
+.how-it-works img {
+  width: 100%;
+  height: auto;
+}
+.how-it-works .hw-steps {
+  display: inline-block;
+  max-height: max-content;
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+}
+.how-it-works .hw-steps p {
+  font-size: large;
+}
+.how-it-works .hw-steps img {
+  height: 100px;
+  width: 100px;
+}
+.how-it-works .hw-steps h5 {
+  padding: 0.5rem 1.5rem;
+  background-color: var(--dark-violet);
+  color: var(--white);
+  max-width: max-content;
+  margin: 1rem auto;
+}
+
+.command {
+  padding: 4rem 0;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.command a {
+  background-color: var(--dark-green);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.rules {
+  background-color: var(--dark-violet);
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.rules .head-rules {
+  display: flex;
+  justify-content: center;
+}
+.rules .head-rules h1 {
+  color: var(--light-marron);
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  padding-bottom: 2rem;
+}
+.rules .box-rules {
+  padding: 1rem 0;
+  display: inline-block;
+  max-width: 250px;
+  max-height: 300px;
+}
+.rules .box-rules img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.rules .box-rules p {
+  color: var(--white);
+}
+
+.newsletter {
+  padding: 2rem 0;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.newsletter p {
+  padding: 1rem 0;
+}
+.newsletter .box-newsletter {
+  display: flex;
+  justify-content: center;
+}
+.newsletter .box-newsletter #bn-email {
+  border-radius: 20px;
+  padding: 0.5rem 0.5rem;
+}
+.newsletter .box-newsletter #bn-ok {
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+
+.box-msg {
+  display: grid;
+  padding: 8rem 0 2rem 0;
+}
+.box-msg .success {
+  background-color: var(--dark-green);
+  padding: 0.1rem 0.5rem;
+  text-align: center;
+  color: var(--white);
+  width: max-content;
+  margin: auto;
+}
+.box-msg .alert {
+  background-color: var(--red);
+  padding: 0.1rem 0.5rem;
+  text-align: center;
+  color: var(--white);
+  margin: auto;
+  width: auto;
+}
+
+/*=================
+  NOS CUISINIERS
+=================*/
+.cc-0 {
+  padding-top: 15rem !important;
+}
+
+.card-cooker {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.card-cooker img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-cooker .card-menu .details-menu {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.card-cooker .card-menu .details-menu a {
+  text-decoration: none;
+}
+.card-cooker .card-menu .details-menu #paniers {
+  color: red;
+}
+.card-cooker .card-menu .details-menu p {
+  font-size: medium;
+  padding-right: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.card-cooker .card-menu .details-menu p img {
+  height: 15px;
+  width: 25px;
+  padding-left: 0.5rem;
+}
+.card-cooker .card-menu .details-menu p:nth-child(1) {
+  background-color: var(--light-marron);
+  padding: 0rem 0.5rem;
+  color: black;
+}
+.card-cooker .card-menu .menu {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0 6rem 0;
+}
+.card-cooker .card-menu .menu .menu-wrap {
+  position: relative;
+  width: min-content;
+  height: min-content;
+}
+.card-cooker .card-menu .menu .menu-wrap img {
+  height: 85px;
+  width: 85px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card-cooker .card-menu .menu .menu-wrap p {
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  padding-top: 2rem;
+  font-size: large;
+}
+
+/*=================
+  NOS MENUS - MQ
+=================*/
+@media screen and (min-width: 700px) {
+  .card-cooker {
+    display: flex;
+    padding: 3rem 0;
+  }
+  .card-cooker img {
+    width: 50%;
+    height: auto;
+  }
+  .card-cooker .card-menu {
+    margin: auto;
+    width: 70%;
+  }
+  .card-cooker .card-menu .menu .menu-wrap img {
+    height: 150px;
+    width: 150px;
+  }
+}
+/*=================
+  SINGLE MENU
+=================*/
+.main-menu {
+  padding: 15rem 0 5rem 0;
+}
+.main-menu .back-menu {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+.main-menu .back-menu .fas {
+  font-size: x-large;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: var(--light-marron);
+  color: var(--black);
+}
+.main-menu .order {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.main-menu .order .command-button {
+  text-align: center;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.55rem 0.85rem;
+  height: min-content;
+}
+.main-menu .order .command-button h1 {
+  color: var(--white);
+  margin: auto;
+}
+.main-menu .order .number-order {
+  padding-bottom: 4rem;
+}
+.main-menu .order .number-order #menu-price {
+  background-color: var(--dark-violet);
+  color: var(--white);
+  padding: 0.25rem 0.85rem;
+  font-size: xx-large;
+}
+.main-menu .order .number-order p:nth-child(2) {
+  border: 1px solid var(--black);
+  padding: 0.25rem 0.85rem;
+  margin: 0 1rem;
+}
+.main-menu .order .number-order #this-menu {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.25rem 0.85rem;
+}
+.main-menu .top-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-menu .top-3 .top-card {
+  display: inline-block;
+  max-width: 300px;
+  max-height: 500px;
+  padding-bottom: 60rem;
+  margin: 0 3rem;
+}
+.main-menu .top-3 .top-card p {
+  color: var(--dark-green);
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+.main-menu .top-3 .top-card img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid var(--dark-green);
+}
+
+/*=================
+  MES COMMANDES
+=================*/
+.command-status .status {
+  display: flex;
+  justify-content: center;
+}
+.command-status .status .fas {
+  color: var(--dark-green);
+  padding: 0 1rem;
+  font-size: xx-large;
+}
+.command-status .status h1 {
+  margin: auto 0;
+  color: var(--dark-green);
+  font-weight: bold;
+}
+
+.box-command {
+  padding-bottom: 1rem;
+  padding-top: 115px;
+  text-align: center;
+}
+.box-command .box-menu {
+  display: flex;
+  justify-content: center;
+}
+.box-command .box-menu .delete-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container-add-panier {
+  padding-top: 4rem;
+  width: 50%;
+  margin: auto;
+  min-height: 750px;
+}
+.container-add-panier .confirm-command {
+  text-align: center;
+}
+.container-add-panier .confirm-command form input {
+  font-size: x-large;
+  font-weight: bold;
+}
+.container-add-panier .total th {
+  font-size: x-large;
+  background: var(--black);
+  color: var(--light-marron);
+}
+.container-add-panier .command-passed {
+  padding-top: 10rem;
+}
+.container-add-panier .command-passed .box-ant {
+  border-bottom: 3px solid var(--black);
+  margin: 4rem 0;
+}
+.container-add-panier .command-passed .box-ant .fas {
+  color: red;
+}
+.container-add-panier .command-passed h2 {
+  font-size: 20px;
+}
+.container-add-panier .command-passed h1 {
+  color: var(--dark-violet);
+  text-align: center;
+}
+
+.box-verif {
+  height: 100vh;
+}
+.box-verif .success {
+  display: flex;
+  justify-content: center;
+}
+.box-verif .success i {
+  margin: auto 0;
+  font-size: xxx-large;
+  color: var(--dark-green);
+  padding-right: 1rem;
+}
+
+.admin {
+  height: 100vh;
+  padding-top: 150px;
+  text-align: center;
+  margin: auto;
+}
+.admin .links {
+  display: grid;
+  grid-gap: 1rem;
+}
+.admin .links a {
+  text-decoration: none;
+}
+
+/*=================
+  NOT FOUND
+=================*/
+.not-found {
+  height: 100vh;
+  padding-top: 150px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=_home.css.map */

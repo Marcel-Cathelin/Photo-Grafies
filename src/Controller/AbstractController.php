@@ -1,11 +1,7 @@
 <?php
 
 /**
- * Created by PhpStorm.
- * User: root
- * Date: 11/10/17
- * Time: 15:38
- * PHP version 7
+ * Created by Photo_Grafies team.
  */
 
 namespace App\Controller;
@@ -35,5 +31,55 @@ abstract class AbstractController
             ]
         );
         $this->twig->addExtension(new DebugExtension());
+    }
+
+    /**
+     *  Destroy the current user session.
+     */
+    public function destroySession()
+    {
+        session_destroy();
+    }
+
+    /**
+     * Custom the render of pages by giving them in param the array $_SESSION
+     */
+    public function customRender(string $template, array $params): string
+    {
+        if (isset($_SESSION['current_user'])) {
+            $params['current_user'] = $_SESSION['current_user'];
+        }
+        if (isset($_SESSION['command'])) {
+            $params['command'][] = $_SESSION['command'];
+        }
+        if (isset($_SESSION['command-status'])) {
+            $params['command-status'] = $_SESSION['command-status'];
+        } elseif (!isset($_SESSION['command-status'])) {
+            $_SESSION['command-status'] = null;
+        }
+        if (isset($_SESSION['command-total'])) {
+            $params['command-total'] = $_SESSION['command-total'];
+        } elseif (!isset($_SESSION['command-status'])) {
+            $_SESSION['command-total'] = null;
+        }
+        if (isset($_SESSION['can-command'])) {
+            $params['can-command'] = $_SESSION['can-command'];
+        } elseif (!isset($_SESSION['can-command'])) {
+            $_SESSION['can-command'] = 1;
+        }
+        return $this->twig->render($template, $params);
+    }
+
+    /**
+     *  Check if a variable in an array is empty of not.
+     */
+    public function isEmpty(array $datas): bool
+    {
+        foreach ($datas as $var) {
+            if (empty($var)) {
+                return false;
+            }
+        }
+        return true;
     }
 }

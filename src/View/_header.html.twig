@@ -1,0 +1,72 @@
+<header>
+
+    <nav class="main-header">
+
+        {% if current_user is defined and current_user.role_id != "1"  %}
+        <div class="logo">
+            <a href="../../home/index"> <img src="/assets/images/logo/Photo-Grafies logo.svg" alt="logo"></a>
+        </div>
+        
+        <div class="nav-links">
+        <img src="/assets/images/logo/menu.svg" alt="hamburger-logo" class="logo-menu">
+            <ul class="liste-nav">
+                <li class="item-nav" ><a href="/home/index">Accueil</a>
+                <li class="item-nav"><a href="/menu/cookers">Gallerie</a>
+                <li class="item-nav"><a href="../../contact/formulaire">Contact </a>
+            </ul>
+            
+        </div>
+        {% endif %}
+
+        {% if current_user is not defined %}
+            <div class="logo">
+                <a href="../../home/index"> <img src="/assets/images/logo/Photo-Grafies logo.svg" alt="logo"></a>
+            </div>
+
+            <div class="nav-links">
+                <img src="/assets/images/logo/menu.svg" alt="hamburger-logo" class="logo-menu">
+                <ul class="liste-nav">
+                    <li class="item-nav" ><a href="/home/index">Accueil</a>
+                    <li class="item-nav"><a href="/menu/cookers">Gallerie</a>
+                    <li class="item-nav"><a href="../../contact/formulaire">Contact </a>
+                </ul>
+
+            </div>
+        {% endif %}
+
+
+        {% if current_user is defined and current_user.role_id == "1" %}
+            <div class="logo">
+                <a href="../../home/index"> <img src="/assets/images/logo/Photo-Grafies logo.svg" alt="logo"></a>
+            </div>
+
+            <div class="nav-links">
+                <img src="/assets/images/logo/menu.svg" alt="hamburger-logo" class="logo-menu">
+                <ul class="liste-nav">
+                    <li class="item-nav" ><a href="/home/index">Accueil</a>
+                    <li class="item-nav"><a href="/menu/cookers">Gallerie</a>
+                    <li class="item-nav"><a href="../../contact/formulaire">Contact </a>
+                </ul>
+            </div>
+        {% endif %}
+
+
+        <div class="connect-btn">
+            <div class="session-user">
+            <!-- Si user defini => si nom défini => on teste role id -->
+            {% if current_user is defined and current_user.role_id == "1" %}
+                <a id="login" class="btn" href="/admin/admin"><span id="connect">Espace - {{current_user.firstname|upper}}</span></a>
+                <a id="panier" class="btn" href="/login/destroy"><span>Se déconnecter <i class="fas fa-sign-out-alt"></i></span></a>
+                {% elseif current_user is defined and current_user.role_id != "1" %}
+                <a id="login" class="btn" href="/login/destroy"><span id="connect">{{current_user.firstname|upper}} - Se déconnecter<i class="fas fa-sign-out-alt"></i></span></a>
+                <a id="panier" class="btn" href="/menu/ajoutpanier"><i class="fas fa-shopping-cart"></i><span id="shopping">Mes commandes</span></a>
+                {% elseif current_user is not defined %}
+                <a id="login" class="btn" href="/login/login"><i class="fas fa-user"></i><span id="connect">Se connecter</span></a>
+            {% endif %}
+            
+            </div>
+
+            
+        </div>
+    </nav>
+</header>

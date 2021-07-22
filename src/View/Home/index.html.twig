@@ -1,5 +1,143 @@
+
 {% extends 'layout.html.twig' %}
 
-{% block content %}
-    <h1>Hello Wilder !</h1>
+{% block title %}
+    {{ parent() }} Accueil {{user.lastname}}
 {% endblock %}
+
+{% block content %}
+
+    <!--Display messages when user enters email address-->
+    <div class="box-msg">
+        {% if success != NULL %}
+            <div class="success">
+                <h1>{{ success }}</h1>
+            </div>
+        {% elseif errors != NULL %}
+            <div class="alert">
+                <h1>{{ errors }}</h1>
+            </div>
+            {% elseif current_user is not defined %}
+            <div class="success">
+                <h1>{{ session_destroy }}</h1>
+            </div>
+        {% endif %}
+        
+    </div>
+
+    <!--Header Text-->
+    <div class="h-head-text">
+        <h2>Ces plats qui font la fierté des cultures traditionnelles près de chez vous !</h2>
+    </div>
+
+    <!--Header Image Full Width-->
+    <div class="h-head-img">
+        <img src="/assets/images/home-hero-img.jpg" alt="Home Header Image">
+        <!--Menu buttom-->
+        <a id="see-menu" href="/menu/cookers/">Voir nos menus</a>
+    </div>
+
+    <!--Post Header Text-->
+    <div class="post-head-text">
+        <p>Le premier service à Lyon de livraison de plats traditionnels cuisinés.</p>
+        <p>Des recettes élaborées par des Chefs ou des particuliers expérimentés avec des produits frais et de saison.</p>
+        <p>On se cale à votre budget. Plats à partir de <span>5 €</span>.</p>
+        <p>Possibilités de régler en x3 au delà de 150 €.</p>
+    </div>
+
+    <!--Search adress bar + geoloc-->
+    <div class="tracking">
+        <form action="#" method="POST">
+            <p>
+                <label for="tracking-box"></label>
+                <i class='fas fa-map-marker-alt'></i>
+                <input type="text" id="tracking-box" name="postcode" placeholder="Entrer votre code postal" required>
+            </p>
+        </form>
+    </div>
+
+    <!--How it works text-->
+    <div class="how-it-works">
+
+        <div class="head-hw">
+            <h1>De l'aide pour commander ?</h1>
+        </div>
+        <div class="hw-steps">
+            <img src="/assets/images/steps/choice.png" alt="Processus de choix">
+            <h5>VOTRE CHOIX</h5>
+            <p>Le client est ROI. A vous de faire votre choix parmis tous nos menus.</p>
+        </div>
+        <div class="hw-steps">
+            <img src="/assets/images/steps/cooking.png" alt="Processus de choix">
+            <h5>ÇA MIGOTTE</h5>
+            <p>Nos cuisiniers se mettent au charbon pour la plus grand plaisir de votre palet.</p>
+        </div>
+
+        <div class="hw-steps">
+            <img src="/assets/images/steps/pay.png" alt="Processus de choix">
+            <h5>PAIEMENT</h5>
+            <p>Vous payez en toute sécurité via notre plateforme. Vous recevrez une confirmation de paiement par email.</p>
+        </div>
+
+        <div class="hw-steps">
+            <img src="/assets/images/steps/delivery.png" alt="Processus de choix">
+            <h5>LIVRAISON</h5>
+            <p>Vos plats sont livrés en temps et en heure, avec la bonne température. Nos coursiers se chargent de vous prévenir arrivés chez vous.</p>
+        </div>
+
+        <div class="hw-steps">
+            <img src="/assets/images/steps/eat.png" alt="Processus de choix">
+            <h5>BON APPETIT !</h5>
+            <p>Vous pouvez maintenant déguster vos plats faits par des mains expertes.</p>
+        </div>
+
+    </div>
+
+    <!--Make a command button-->
+    <div class="command">
+        <h3><a href="/menu/cookers">Commandez !</a></h3>
+    </div>
+
+    <!--4 rules-->
+    <div class="rules" id="rules">
+        <div class="head-rules">
+            <h1>Le Concept</h1>
+        </div>
+        <div class="box-rules">
+            <img src="/assets/images/rules/local.png" alt="Processus de choix">
+            <p>Le local, c'est notre affaire.</p>
+        </div>
+        <div class="box-rules">
+            <img src="/assets/images/rules/covid.png" alt="Mesures barrières icon">
+            <p>Plats cuisinés en respectant les mesures barrières et hygièniques.</p>
+        </div>
+        <div class="box-rules">
+            <img src="/assets/images/rules/balance.png" alt="...TODO">
+            <p>Une combinaison de gourmet et de gourmand. La quantité et la qualité à juste mesure.</p>
+        </div>
+        <div class="box-rules">
+            <img src="/assets/images/rules/payback.png" alt="Pay back icon">
+            <p>Satisfait ou remboursé.</p>
+        </div>
+        <div class="box-rules">
+            <img src="/assets/images/rules/certified.png" alt="Recette validée par Paul Bosuce icon">
+            <p>Recettes validées par l'enseigne Paul Bocuse.</p>
+        </div>
+
+    </div>
+
+    <!--Newsletter + buttom-->
+    <div class="newsletter">
+        <p>Inscrivez-vous à notre Newsletter</p>
+
+        <div class="box-newsletter">
+            <form method="POST" action="/home/index">
+                <input id="bn-email" type="email" placeholder="E-mail" name="email">
+                <input id="bn-ok" type="submit" name="submit" value="OK">
+            </form>
+        </div>
+    </div>
+
+
+{% endblock %}
+
