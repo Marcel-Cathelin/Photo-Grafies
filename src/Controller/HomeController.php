@@ -27,7 +27,7 @@ class HomeController extends AbstractController
     public function index(): string
     {
         $email = '';
-        $postalcode = '';
+        // $postalcode = '';
         // $postalCodePattern = '/^([0-9]{5})$/';
 
         // if ($_SERVER["REQUEST_METHOD"] === "POST") {
