@@ -188,75 +188,7 @@
   width: auto;
 }
 
-/*=================
-  NOS CUISINIERS
-=================*/
-.cc-0 {
-  padding-top: 15rem !important;
-}
 
-.card-cooker {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-.card-cooker img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-.card-cooker .card-menu .details-menu {
-  padding-top: 1rem;
-  display: flex;
-  justify-content: center;
-}
-.card-cooker .card-menu .details-menu a {
-  text-decoration: none;
-}
-.card-cooker .card-menu .details-menu #paniers {
-  color: red;
-}
-.card-cooker .card-menu .details-menu p {
-  font-size: medium;
-  padding-right: 0.3rem;
-  margin-bottom: 0.5rem;
-}
-.card-cooker .card-menu .details-menu p img {
-  height: 15px;
-  width: 25px;
-  padding-left: 0.5rem;
-}
-.card-cooker .card-menu .details-menu p:nth-child(1) {
-  background-color: var(--light-marron);
-  padding: 0rem 0.5rem;
-  color: black;
-}
-.card-cooker .card-menu .menu {
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem 0 6rem 0;
-}
-.card-cooker .card-menu .menu .menu-wrap {
-  position: relative;
-  width: min-content;
-  height: min-content;
-}
-.card-cooker .card-menu .menu .menu-wrap img {
-  height: 85px;
-  width: 85px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-.card-cooker .card-menu .menu .menu-wrap p {
-  position: absolute;
-  top: 90%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: black;
-  padding-top: 2rem;
-  font-size: large;
-}
 
 /*=================
   NOS MENUS - MQ
@@ -357,101 +289,6 @@
   border: 8px solid var(--dark-green);
 }
 
-/*=================
-  MES COMMANDES
-=================*/
-.command-status .status {
-  display: flex;
-  justify-content: center;
-}
-.command-status .status .fas {
-  color: var(--dark-green);
-  padding: 0 1rem;
-  font-size: xx-large;
-}
-.command-status .status h1 {
-  margin: auto 0;
-  color: var(--dark-green);
-  font-weight: bold;
-}
-
-.box-command {
-  padding-bottom: 1rem;
-  padding-top: 115px;
-  text-align: center;
-}
-.box-command .box-menu {
-  display: flex;
-  justify-content: center;
-}
-.box-command .box-menu .delete-section {
-  display: flex;
-  justify-content: center;
-}
-
-.container-add-panier {
-  padding-top: 4rem;
-  width: 50%;
-  margin: auto;
-  min-height: 750px;
-}
-.container-add-panier .confirm-command {
-  text-align: center;
-}
-.container-add-panier .confirm-command form input {
-  font-size: x-large;
-  font-weight: bold;
-}
-.container-add-panier .total th {
-  font-size: x-large;
-  background: var(--black);
-  color: var(--light-marron);
-}
-.container-add-panier .command-passed {
-  padding-top: 10rem;
-}
-.container-add-panier .command-passed .box-ant {
-  border-bottom: 3px solid var(--black);
-  margin: 4rem 0;
-}
-.container-add-panier .command-passed .box-ant .fas {
-  color: red;
-}
-.container-add-panier .command-passed h2 {
-  font-size: 20px;
-}
-.container-add-panier .command-passed h1 {
-  color: var(--dark-violet);
-  text-align: center;
-}
-
-.box-verif {
-  height: 100vh;
-}
-.box-verif .success {
-  display: flex;
-  justify-content: center;
-}
-.box-verif .success i {
-  margin: auto 0;
-  font-size: xxx-large;
-  color: var(--dark-green);
-  padding-right: 1rem;
-}
-
-.admin {
-  height: 100vh;
-  padding-top: 150px;
-  text-align: center;
-  margin: auto;
-}
-.admin .links {
-  display: grid;
-  grid-gap: 1rem;
-}
-.admin .links a {
-  text-decoration: none;
-}
 
 /*=================
   NOT FOUND
@@ -472,13 +309,28 @@
   flex-direction: row;
 }
 
-.three-pictures img {
+/* .three-pictures img {
   
-  /* width: 20%; */
-
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 20%;
-  
+  border-radius: 15px;
+} */
+
+
+
+.three-pictures img {
+  transition: transform .2s; /* Animation */
+  width: 20%;
+  overflow: hidden;
 }
+
+
+
+
+.three-pictures img:hover {
+  transform: scale(2.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  margin-left: auto;
+  margin-right: auto;
+  }
