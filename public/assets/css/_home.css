@@ -324,6 +324,9 @@
   transition: transform .2s; /* Animation */
   width: 20%;
   overflow: hidden;
+  border-radius: 10px;
+  padding: 10px;
+
 }
 
 
