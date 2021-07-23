@@ -1,39 +1,43 @@
-
 {% extends 'layout.html.twig' %}
 
 {% block title %}
-    {{ parent() }} Accueil {{user.lastname}}
+	{{ parent() }}
+	Accueil
+	{{user.lastname}}
 {% endblock %}
 
 {% block content %}
 
-    <!--Display messages when user enters email address-->
-    <div class="box-msg">
-        {% if success != NULL %}
-            <div class="success">
-                <h1>{{ success }}</h1>
-            </div>
-        {% elseif errors != NULL %}
-            <div class="alert">
-                <h1>{{ errors }}</h1>
-            </div>
-            {% elseif current_user is not defined %}
-            <div class="success">
-                <h1>{{ session_destroy }}</h1>
-            </div>
-        {% endif %}
-        
-    </div>
+	<!--Display messages when user enters email address-->
+	<div class="box-msg">
+		{% if success != NULL %}
+			<div class="success">
+				<h1>{{ success }}</h1>
+			</div>
+		{% elseif errors != NULL %}
+			<div class="alert">
+				<h1>{{ errors }}</h1>
+			</div>
+		{% elseif current_user is not defined %}
+			<div class="success">
+				<h1>{{ session_destroy }}</h1>
+			</div>
+		{% endif %}
 
-    <!--Post Header Text-->
-    <div class="post-head-text">
-        <p>Vous etes passionné par la photographie, vous aimez voir de belles photos !</p>
-        <p>Vous pourrez sur ce site exposer vos plus belles photographies</p>
-        
-    </div>
+	</div>
+
+	<!--Post Header Text-->
+	<div class="post-head-text">
+		<p>Vous etes passionné par la photographie, vous aimez voir de belles photos !</p>
+		<p>Vous pourrez sur ce site exposer vos plus belles photographies</p>
+
+	</div>
 
 
-
+	<div class="three-pictures">
+		<img src="/assets/images/pictures/Araigne_toile01.jpg" alt="Araigne sur sa toile">
+		<img src="/assets/images/pictures/Herbes_folles01.jpg" alt="Araigne sur sa toile">
+		<img src="/assets/images/pictures/sauterelle_male01.jpg" alt="Araigne sur sa toile">
+	</div>
 
 {% endblock %}
-

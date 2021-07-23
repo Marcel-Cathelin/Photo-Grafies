@@ -463,3 +463,22 @@
 }
 
 /*# sourceMappingURL=_home.css.map */
+
+/* images page index */
+
+.three-pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.three-pictures img {
+  
+  /* width: 20%; */
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 20%;
+  
+}
