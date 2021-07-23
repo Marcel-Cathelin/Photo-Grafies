@@ -1,7 +1,7 @@
 @import '_header.css';
 /* @import '_contact.css'; */
 @import '_home.css';
-/* @import '_footer.css'; */
+@import '_footer.css';
 
 :root{
     --black : #000000;
